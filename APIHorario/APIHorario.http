@@ -1,0 +1,19 @@
+@APIHorario_HostAddress = http://localhost:5289
+
+###
+
+GET {{APIHorario_HostAddress}}/horarioatual/nocache
+
+###
+
+GET {{APIHorario_HostAddress}}/horarioatual/cache
+
+###
+
+GET {{APIHorario_HostAddress}}/horarioatual/cachequerystring?valorTeste=valor01
+
+###
+
+GET {{APIHorario_HostAddress}}/horarioatual/cachequerystring?valorTeste=valor02
+
+###
